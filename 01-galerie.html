@@ -89,5 +89,12 @@ rgba(0,0,0,0.9) right right sans-serif text-align top top width width
     <div class="overlay">
         <figure><img :src="imageChiot" alt="image 237... un chiot"></figure>
     </div>
+    <div class="overlay"
+    x-show="imageChiot"
+    @click=" = null">
+    <div class="overlay"
+    x-show="imageChiot"
+    @keyup.escape.window=" = null">
+</div>
 </body>
 </html>
